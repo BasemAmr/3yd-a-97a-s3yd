@@ -5,13 +5,9 @@ var btn = $("#doIt");
 btn.click(()=>{
 
 	if($(window).width() <= 768){
-		$("section").delay(1000).toggle('slow', ()=>{
-			$("section span").toggle('400');
-		});
+		$("section").delay(1000).toggle('slow');
 	}else{
-		$("section").toggle('slow', ()=>{
-			$("section span").toggle('400');
-		});
+		$("section").toggle('slow');
 	}
 	
 });
