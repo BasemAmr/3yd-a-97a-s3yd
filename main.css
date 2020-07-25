@@ -30,13 +30,6 @@ section{
     line-height: 2.5;
     position: relative;
 }
-section span{
-    font-family: 'Oswald', sans-serif;
-    position: absolute;
-    top: 75%;
-    left: 1%;
-    display: none;
-}
 
 /* Neon Button Effect! */
 
@@ -191,45 +184,41 @@ a:hover span:nth-child(4){
 }
 
 @media (min-width: 320px) and (max-width: 480px){
-button{
-    margin: 0 35%;
+a{
+    left: 35%;  
     padding: 15px 25px;
 }
-section span{
-    top: 85%;
-}
+
 .box div{
     width: 50px;
     height: 50px;
 }
 }
 @media (min-width: 481px) and (max-width: 768px){
-    button{
-        margin: 0 35%;
+    a{
+        left:  42%;
         padding: 15px 25px;
     }
     .box div{
         width: 70px;
         height: 70px;
     }
-    section span{
-        top: 75%;
-    }
+    
 }
 @media (min-width: 769px) and (max-width: 1024px){
     /* Style the page */
 
-button{
-    margin: 0 45%;
+a{
+    left:  45%;
 }
 .box div{
     width: 60px;
     height: 60px;
 }
 }
-@media (min-width: 1025px) and (max-width: 1200px){
-button{
-    margin: 0 45%;
+@media (min-width: 1025px) and (max-width: 1200px){ 
+a{
+    left:  45%;
     padding: 15px 25px;
 }
 }
@@ -238,7 +227,5 @@ button{
     width: 70px;
     height: 70px;
 }
-section span{
-    top: 65%;
-}
+
 }
