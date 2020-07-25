@@ -1,4 +1,4 @@
-# 3yd a'97a s3yd
+# 3yd a'97a s3yd 🎈
 
 I made this small page to celebrate 3yd al'97a and to practise on animations, which I finished its course a week ago.
 
