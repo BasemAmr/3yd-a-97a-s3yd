@@ -3,9 +3,17 @@
 
 var btn = $("#doIt");
 btn.click(()=>{
-	$("section").toggle('slow', ()=>{
-		$("section span").toggle('400')
-	})
+
+	if($(window).width() <= 768){
+		$("section").delay(1000).toggle('slow', ()=>{
+			$("section span").toggle('400');
+		});
+	}else{
+		$("section").toggle('slow', ()=>{
+			$("section span").toggle('400');
+		});
+	}
+	
 });
 
 // Adjust "wrapper" Height
