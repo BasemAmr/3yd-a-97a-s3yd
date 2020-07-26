@@ -30,6 +30,13 @@ section{
     line-height: 2.5;
     position: relative;
 }
+section span{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 1%;
+    display: none;
+}
 
 /* Neon Button Effect! */
 
@@ -188,7 +195,9 @@ a{
     left: 35%;  
     padding: 15px 25px;
 }
-
+section span{
+    top: 85%;
+}
 .box div{
     width: 50px;
     height: 50px;
@@ -203,7 +212,9 @@ a{
         width: 70px;
         height: 70px;
     }
-    
+    section span{
+        top: 75%;
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px){
     /* Style the page */
@@ -227,5 +238,7 @@ a{
     width: 70px;
     height: 70px;
 }
-
+section span{
+    top: 65%;
+}
 }
